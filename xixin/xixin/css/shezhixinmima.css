@@ -1,0 +1,132 @@
+/*设置新密码*/
+.set{
+	width: 1000px;
+	height: 450px;
+	margin:40px auto 60px;
+	box-shadow: 0px 0px 7px 5px #f0f0f0;
+}
+.set a:hover{
+  color: red;
+}
+.set_img{
+	padding: 60px 210px 50px;
+}
+.input_password{
+    		border: 1px solid #dddddd;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 310px;
+    		 display: inline-block;
+    }
+input{
+	font-size: 16px;
+    	height: 40px;
+    	width: 280px;
+     border: 0;
+    }
+    .input_password img{
+  	vertical-align: middle;
+    }
+    .set_img2{
+   	text-align: center;
+   	height: 50px;
+   	line-height: 50px;
+   	color: gray;
+    }
+       .set_img2 img{
+       	   	vertical-align: middle;
+       }
+       .set_text{
+       	width: 570px;
+       	margin: 10px auto 10px;
+       }
+      .set_text a{
+       	display: inline-block;
+       	width: 90px;
+       	height: 40px;
+       	line-height: 40px;
+       	text-align: center; 
+       	font-size: 16px;
+       	color:gray;
+      }
+      .password_text{
+      	color: red;
+      }
+      .set_but{
+      	width: 135px;
+      	height: 35px;
+      	text-align: center;
+      	line-height: 35px;
+      	border-radius: 7px;
+      	margin: 10px auto 10px ;
+      	background: #41ccf3;
+      	font-size:16px;
+      	color: white;
+      }
+         .set_but:hover{
+         	cursor: pointer;
+         	border: 1px solid skyblue;
+         }
+         .set_img_all{
+         	width: 350px;
+         	margin: 10px auto 10px;
+         }
+   .set_img_all img{
+   	vertical-align: middle;
+   }
+      .set_img_all img{
+   	vertical-align: bottom;
+   }
+         .set_img_all a{
+         	color: gray;
+         	display: inline-block;
+         	width: 100px;
+         	height: 30px;
+         	line-height: 30px;
+         	text-align: center;
+         }
+         /*设置新密码*/
+/*找回密码*/
+.input_password2{
+    		border: 1px solid #dddddd;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+    		 display: inline-block;
+    }
+    .input_password2 input{
+    	    	 height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+    }
+     .set_text2 .get{
+     	     display: inline-block;
+     	    	height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+    		border: 1px solid #41ccf3;
+    		text-align: center;
+    		color: #41ccf3;
+    		margin-left: 15px;
+    		font-size: 14px;
+    		font-weight: bold;
+     }
+     .set_text2 .get:hover{
+     	cursor: pointer;
+     	color: #bababa;
+     }
+
+      .set_text2{
+       	width: 420px;
+       	margin: 10px auto 10px;
+       }
+             .set_text2 a{
+       	display: inline-block;
+       	width: 90px;
+       	height: 40px;
+       	line-height: 40px;
+       	text-align: center; 
+       	font-size: 16px;
+       	color:gray;
+      }
+/*找回密码*/

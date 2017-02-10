@@ -1,0 +1,268 @@
+.clear{
+	clear: both;
+}
+.wrap{
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0 auto;	
+}
+/*头部*/
+header{
+	height: 100px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h1{
+	float: left;
+	margin-top: 25px;
+}
+.login{
+	width: 250px;
+	float: right;
+	margin-top: 18px;
+	text-align: right;
+	position: relative;
+}
+.login a{
+	color: #999999;
+}
+.login a:first-child{
+	border-right: 1px solid #999999;
+}
+.login a{
+	padding: 0px 8px;
+}
+.login input{
+	margin-top: 10px;
+	width: 100%;
+	height: 32px;
+	border: 1px solid #d8d8d8;
+	border-radius: 20px;
+	text-indent: 4em;
+	font-size: 18px;
+}
+.login img{
+	cursor: pointer;
+	position: absolute;
+	right: 13px;
+	top: 32px;
+}
+.login select{
+	position: absolute;
+	width: 50px;
+	border: 0px;
+	color: #999999;
+	top: 35px;
+	left: 23px;
+}
+/*导航栏*/
+.nav{
+	border-top: 2px solid #41ccf3;
+	height: 40px;
+	position: relative;
+}
+.nav .content{
+	position: relative;
+}
+.nav ul{
+	width: 1000px;
+	
+}
+.nav li{
+	float: left;
+	position: relative;
+}
+.nav li a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+}
+.nav li a:hover,.nav .cur,.nav li .son_nav a:hover{
+	background-color: #41ccf3;
+	color: white;
+}
+.nav li .son_nav{
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+.nav li .son_nav a{
+	color: #41ccf3;
+	background-color: #fff;
+}
+.toShop span{
+	cursor: pointer;
+	display: inline-block;
+	background-color: #d58a4f;
+	color: #fff;
+	font-size: 14px;
+	width: 122px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+}
+.nav .toShop{
+	position: absolute;
+	right: 0px;
+	top: -9px;
+}
+.nav .toShop img{
+	position: absolute;
+	top: 0px;
+	left: -7px;
+}
+
+/*主题内容*/
+.figure{
+		width:100%;
+}
+.figure img{
+	width: 100%;
+}
+.tab{
+	width:100%;
+	height:1300px;
+}
+.tab_son{
+	width:1000px;
+	margin:0 auto;
+	height: 1174px;
+	color:#c9c9c9;
+}
+.tab_son h1{
+	height:60px;
+	line-height:70px;
+	border-bottom:1px solid #41ccf3;	
+}
+.tab .tab_son h1 a{
+	color:#c9c9c9;
+	height: 30px;
+	margin: 0 3px;
+}
+.tab_son .content{
+	height:221px;
+}
+.tab_son .content1{
+	width: 100%;
+	height: 220px;
+}
+.content1 .ct_one{
+	width: 154px;
+	color: #4183d7;
+}
+.content1 .ct_one .text_one{
+	width: 56px;
+	font-size:48px; 
+	margin-top: 45px;
+	margin-left: 42px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.content1 .ct_one .text_two{
+	font-size: 14px;
+	margin-left:45px; 
+	margin-top: 5px;
+}
+.content1 .ct_two{
+	width: 222px;
+}
+.content1 .ct_two img{
+	margin-top: 33px;
+}
+.content1 .ct_three{
+	width: 624px;
+}
+.content1 .ct_three .text_three{
+	height: 92px;
+	line-height: 110px;
+	font-size: 18px;
+	color: #333333;
+	margin-left: 20px;
+}
+.content1 .ct_three .text_four{
+	width: 581px;
+	font-size: 14px;
+	color: #a3a3a3;
+	margin-left: 20px;
+}
+.content1 div{
+	height: 221px;
+	float: left;
+}
+.content2{
+	border-bottom: 1px solid #d8d8d8;
+}
+.tab_son .content1:hover{
+	background-color: #f2f2f2;
+}
+/*脚部*/
+.foot_top{
+	width: 100%;
+	height:50px;
+	line-height: 50px;
+	background-color: #e8e8e8;
+	overflow: hidden;
+}
+footer li{
+	float: left;
+}
+.foot_top li a{
+	padding-right: 60px;
+	font-size: 14px;
+	color: #999999;
+}
+.foot_bottom{
+	background-color: #f5f5f5;
+	height: 140px;
+}
+.foot_bottom ul{
+	width: 580px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.foot_bottom ul img{
+	margin-right: 10px;
+}
+.foot_bottom ul li:first-child{
+	margin-right: 60px;
+}
+.foot_bottom ul li:nth-child(3){
+	margin-right: 239px;
+	margin-top: 14px;
+}
+.foot_bottom ul li:nth-child(4){
+	margin-top: 14px;
+}
+.foot_bottom li span,.foot_bottom li img{
+	vertical-align: middle;
+}
+.foot_bottom li span{
+	font-size: 14px;
+}
+.foot_bottom span{
+	color: #999999;
+}
+.copy_right span{
+	margin-right: 50px;
+}
+.code{
+	float: right;
+	color: #999;
+	text-align: center;
+	width: 115px;
+	margin-top: 20px;
+	margin-right: 3px;
+}
+.code p{
+	margin-top: 12px;
+}
+.foot_bottom .left{
+	float: left;
+}

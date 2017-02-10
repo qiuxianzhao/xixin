@@ -1,0 +1,157 @@
+.set{
+	width: 900px;
+	margin:40px auto 60px;
+	box-shadow: 0px 0px 7px 5px #f0f0f0;
+	position: relative;
+	padding: 50px 50px 10px ;
+}
+.set_text div{
+	height: 50px;
+	line-height: 50px;
+}
+.input_password{
+    		border: 1px solid #dddddd;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 310px;
+    		 display: inline-block;
+}
+input{
+	font-size: 16px;
+    	height: 40px;
+    	width: 280px;
+     border: 0;
+ }
+.input_password img{
+  	vertical-align: middle;
+}
+.set_img2{
+    	width: 300px;
+   	text-align: center;
+   	height: 50px;
+   	line-height: 50px;
+   	color: gray;
+}
+ .set_img2 img{
+       	   	vertical-align: middle;
+}
+ .set_text{
+       	width: 570px;
+}
+ .set_text div{
+       	font-size: 16px;
+       	color: gray;
+ }
+.set_text a{
+       	display: inline-block;
+       	width: 90px;
+       	height: 40px;
+       	line-height: 40px;
+       	text-align: center; 
+       	font-size: 16px;
+       	color:gray;
+}
+.password_text{
+      	color: red;
+}
+.set_img_all{
+         	width: 350px;
+         	margin: 10px auto 10px;
+}
+.set_img_all img{
+   	vertical-align: middle;
+   }
+.set_img_all img{
+   	vertical-align: bottom;
+   }
+ .set_img_all a{
+         	color: gray;
+         	display: inline-block;
+         	width: 100px;
+         	height: 30px;
+         	line-height: 30px;
+         	text-align: center;
+ }
+
+ .yanzhengma{
+         	 border: 1px solid #dddddd;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+    		 display: inline-block;
+    		 margin-right: 20px;
+ }
+ .yanzhengma input{
+          	height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+ }
+  .yanzhengma2{
+         	 background: #dddddd;
+         	 text-align: center;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 110px;
+    		color:white;
+    		font-size: 16px;
+    		 display: inline-block;
+ }
+.yanzhengma2:hover{
+	cursor: pointer;
+}
+ .set_text .next{
+         	font-size: 12px;
+}
+.set_text .next:hover{
+         	color:red;
+}
+ .checkbox input{
+	width:15px;
+	height: 15px;
+}
+.checkbox_text{
+	color:gray;
+}
+.checkbox_text a{
+	color: #41ccf3;
+	display: inline;
+	font-size: 12px;
+}
+.checkbox_text a:hover{
+	color: red;
+}
+.set_checkbox_text{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+}
+.set_checkbox_text2{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: right ;
+}
+.denglu_but{
+    	    	 height: 40px;
+    		 line-height: 40px;
+    		width: 310px;
+    		background: #41ccf3;
+    		text-align: center;
+    		color: white;
+    		border-radius: 8px;
+    		font-size: 16px;
+    		border: 1px solid white;
+}
+.denglu_but:hover{
+      	border: 1px solid #41ccf3;
+      	cursor: pointer;
+}
+.set_images_position{
+	position: absolute;
+	right: 60px;
+	top: 165px;
+}
+.set_images_position img{
+	width: 410px;
+	height: 260px;
+}

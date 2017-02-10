@@ -1,0 +1,216 @@
+.clear{
+	clear: both;
+}
+.wrap{
+	width: 100%;
+	max-width: 1920px;
+	min-width: 1000px;
+	margin: 0 auto;	
+}
+/*头部 start */
+header{
+	height: 100px;
+}
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+.content h1{
+	float: left;
+	margin-top: 25px;
+}
+.login{
+	width: 250px;
+	float: right;
+	margin-top: 18px;
+	text-align: right;
+	position: relative;
+}
+.login a{
+	color: #999999;
+}
+.login a:first-child{
+	border-right: 1px solid #999999;
+}
+.login a{
+	padding: 0px 8px;
+}
+.login input{
+	margin-top: 10px;
+	width: 100%;
+	height: 32px;
+	border: 1px solid #d8d8d8;
+	border-radius: 20px;
+	text-indent: 4em;
+	font-size: 18px;
+}
+.login img{
+	cursor: pointer;
+	position: absolute;
+	right: 13px;
+	top: 32px;
+}
+/*
+.login select{
+	position: absolute;
+	width: 50px;
+	border: 0px;
+	color: #999999;
+	top: 35px;
+	left: 23px;
+}
+*/
+.login .classify{
+	position: absolute;	
+	top: 35px;
+	left: 15px;
+}
+.login .classify a{
+	border: 0px;
+}
+.classify img{
+	position: absolute;
+	top: 5px;
+	left: 42px;
+}
+.classify li{
+	position: relative;
+}
+.class_son{
+	display: none;
+	z-index: 2;
+	background-color: #fff;
+	position: absolute;
+}
+.class_son a:hover{
+	background-color: #ccc;
+	color: #fff;
+}
+/*头部 stop */
+/*导航栏 start */
+.nav{
+	border-top: 2px solid #41ccf3;
+	height: 40px;
+	position: relative;
+}
+.nav .content{
+	position: relative;
+}
+.nav ul{
+	width: 1000px;
+	
+}
+.nav li{
+	float: left;
+	position: relative;
+}
+.nav li a{
+	display: block;
+	width: 120px;
+	height: 40px;
+	color: #666666;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+}
+.nav li a:hover,.nav .cur,.nav li .son_nav a:hover{
+	background-color: #41ccf3;
+	color: white;
+}
+.nav li .son_nav{
+	position: absolute;
+	display: none;
+	z-index: 2;
+}
+.nav li .son_nav a{
+	color: #41ccf3;
+	background-color: #fff;
+}
+.toShop span{
+	cursor: pointer;
+	display: inline-block;
+	background-color: #d58a4f;
+	color: #fff;
+	font-size: 14px;
+	width: 122px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+}
+.nav .toShop{
+	position: absolute;
+	right: 0px;
+	top: -9px;
+}
+.nav .toShop img{
+	position: absolute;
+	top: 0px;
+	left: -7px;
+}
+/*导航栏 stop */
+/*脚部 start */
+.foot_top{
+	width: 100%;
+	height:50px;
+	line-height: 50px;
+	background-color: #e8e8e8;
+	overflow: hidden;
+}
+footer li{
+	float: left;
+}
+.foot_top li a{
+	padding-right: 60px;
+	font-size: 14px;
+	color: #999999;
+}
+.foot_bottom{
+	background-color: #f5f5f5;
+	height: 140px;
+}
+.foot_bottom ul{
+	width: 580px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.foot_bottom ul img{
+	margin-right: 10px;
+}
+.foot_bottom ul li:first-child{
+	margin-right: 60px;
+}
+.foot_bottom ul li:nth-child(3){
+	margin-right: 239px;
+	margin-top: 14px;
+}
+.foot_bottom ul li:nth-child(4){
+	margin-top: 14px;
+}
+.foot_bottom li span,.foot_bottom li img{
+	vertical-align: middle;
+}
+.foot_bottom li span{
+	font-size: 14px;
+}
+.foot_bottom span{
+	color: #999999;
+}
+.copy_right span{
+	margin-right: 50px;
+}
+.code{
+	float: right;
+	color: #999;
+	text-align: center;
+	width: 115px;
+	margin-top: 20px;
+	margin-right: 3px;
+}
+.code p{
+	margin-top: 12px;
+}
+.foot_bottom .left{
+	float: left;
+}
+/*脚部 start */

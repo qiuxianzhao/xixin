@@ -1,0 +1,103 @@
+.denglu{
+  width:  1000px;
+  margin: 50px auto 150px;
+}
+.denglu a:hover{
+  color: red;
+}
+.denglu_img{
+	width: 507px;
+	height: 308px;
+	float: left;
+}
+.denglu_text{
+	width: 430px;
+	height: 40px;
+	line-height: 40px;
+}
+.denglu_text  span{
+	display: inline-block;
+	width: 127px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fafafa;
+}
+.denglu_text  span a{
+	color: gray;
+	font-size: 14px;
+}
+.denglu_text  span a:hover{
+	color: white;
+	background: rgb(65,204,243,0.8);
+}
+.denglu_text  span:hover{
+	background: rgba(65,204,243,0.8);
+	cursor: pointer;
+}
+ .denglu_text .denglu_text_color{
+ 	background: #41ccf3;
+ }
+  .denglu_text .denglu_text_color a{
+  	color: white;
+  }
+   .denglu_right{
+   	float: right;
+   	width: 430px;
+   	height: 335px;
+
+   }
+   .denglu_text_text{
+   	padding: 40px;
+   	border: 1px solid #dddddd;
+   }
+    .denglu_text_text div{
+    	font-size: 14px;
+    	width: 320px;
+    }
+      .denglu_text_text div a{
+    	color: #dddddd;
+    	font-size: 12px;
+    	display: inline-block;
+    	float: right;
+    }
+    .denglu_text_text input{
+    	height: 40px;
+    	width: 280px;
+     border: 0;
+    }
+    .denglu_text_text .input_text{
+    		border: 1px solid #dddddd;
+    		 height: 40px;
+    		width: 310px;
+    		 margin: 10px 0 10px;
+    		 line-height: 40px;
+    }
+      .denglu_text_text .input_password{
+    		border: 1px solid #dddddd;
+    		 height: 40px;
+    		 line-height: 40px;
+    		width: 310px;
+    		 margin: 10px 0 10px;
+    }
+     .denglu_text_text .input_text img{
+     		vertical-align: middle;
+    }
+.denglu_text_text .input_password img{
+  	vertical-align: middle;
+    }
+    .denglu_but{
+    	    	 height: 40px;
+    		 line-height: 40px;
+    		width: 310px;
+    		background: #41ccf3;
+    		text-align: center;
+    		color: white;
+    		border-radius: 8px;
+    		font-size: 16px;
+    		border: 1px solid white;
+    }
+      .denglu_but:hover{
+      	border: 1px solid #41ccf3;
+      	cursor: pointer;
+      }

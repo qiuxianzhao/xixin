@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/base1.css">
+	<link rel="stylesheet" type="text/css" href="./css/denglu.css">
+</head>
+<body>
+	<!-- logo -->
+	<div class="logo">
+			<div class="logo_img"><img src="./images/logo.png"></div>
+			<div class="clear"></div>
+	</div>
+	<!-- logo -->
+	<!-- 登陆 -->
+	<div class="denglu"> 
+		<div class="denglu_img"><img src="./images/1.jpg"></div>
+		<div class="denglu_right"> 
+			<div class="denglu_text"> 
+				<span class="denglu_text_color"><a>用户登陆</a></span>
+				<lable><span><a href="yonghuzhuce.html" target="blank_">账号注册</a></span></lable>
+			</div>
+			<div class="denglu_text_text"> 
+				<div>账户</div>
+				<div id="tips" style="position:absolute;margin-left:170px;margin-top:-30px;color:#f00;display:none;height:20px;line-height:20px;"></div>
+				<!-- <div class="gggg"></div> -->
+				<div class="input_text"> 
+					<input type="text" id="username" type="text" placeholder="手机号码" onfocus="tips('username','长度最多11个字符')" onblur="outtips()" />
+					<img src="./images/2.jpg"> 
+				</div>
+				<div>密码<a>忘记密码?</a><div class="clear"></div></div>
+				<div class="input_password"> 
+					<input type="password" id="password" onfocus="tips('password','密码长度必须在3-18位之间')" onblur="outtips()"> 
+					<img src="./images/3.jpg"> 
+				</div>
+				<div class="denglu_but">登陆</div>
+			</div>
+		</div>
+			<div class="clear"></div>
+	</div>
+	<!-- 登陆 -->
+		
+		<!-- 脚部-->
+		<div class="foot_nav"> 
+			<div class="foot_nav_middle"> 
+				<a>首页</a>
+				<a>走进悉心</a>
+				<a>项目案例</a>
+				<a>悉心动态</a>
+				<a>联系悉心</a>
+			</div>
+		</div>
+		<div class="foot"> 
+			<div class="foot_text"> 
+				<div class="foot_text_middle">
+					<div>
+						<img src="./images/dingwei.jpg">
+						<a>地 址：广州市天河区五山路248号金山大厦南塔901</a>
+						<img src="./images/dianhua.jpg">
+						<a>电 话：020-22095623</a> 
+					</div>
+					<div>
+						<img src="./images/youjian.jpg">
+						<a>邮 箱：qyit5@qq.com</a>
+						<img src="./images/chuanzhen.jpg">
+						<a>传 真：020-22095623</a> 
+					</div>
+					<div>
+						<a>© 2016 Guangzhou粤ICP备16023838号-1</a>
+						<a>广州悉心网络科技有限公司所有</a> 
+					</div>
+				</div>
+				<div class="foot_img"> 
+					<div><img src="./images/erweima.jpg"></div>
+					<div>扫一扫关注悉心微信</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- 脚部-->
+		<script language="javascript">
+function tips(id,str){
+var l=document.getElementById(id).offsetLeft+120;
+var t=document.getElementById(id).offsetTop;
+document.getElementById("tips").innerHTML="提示："+str;
+document.getElementById("tips").style.left=l+"px";
+document.getElementById("tips").style.top=t+"px";
+document.getElementById("tips").style.display="";
+}
+function outtips(){
+    document.getElementById("tips").style.display='none';
+}
+</script>
+			
+</body>
+</html>

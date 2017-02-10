@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行业资讯</title>
+	<link rel="stylesheet" href="./css/industryInformation.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="./css/reset.css">
+	<script src="jquery/jquery-3.1.0.js"></script>
+</head>
+<body>
+	<!-- 头部 start -->
+	<header class="content">
+		<h1><img src="images/logo.png" alt=""></h1>
+		<aside class="login">
+			<a href="denglu.html" target="blank_">登录</a>
+			<a href="yonghuzhuce.html" target="blank_">注册</a>
+			<input type="text" name = "search">
+			<img src="images/search_ico.png" alt="">
+			<div class="classify">
+				<select name="type" id="">
+					<option value="">分类</option>
+					<option value="">音乐</option>
+					<option value="">运动</option>
+				</select>
+			</div>
+		</aside>
+		<div class="clear"></div>
+	</header>
+<!-- 头部 stop -->
+<!-- 导航栏 -->
+	<nav class="nav">
+		<div class="content">
+			<ul>
+				<li><a href="Thehomepage.html "target="blank_">首页</a></li>
+				 <li>
+			        <a href="">业务体系</a>
+			        <div class="son_nav">
+			          <a href="">公司历史</a>
+			          <a href="">企业文化</a>
+			          <a href="">组织架构</a>
+			          <a href="">组织架构</a>
+			        </div>
+	     		 </li>
+				<li>
+					<a href="Casedetails.html" target="blank_">项目案例</a>
+					<div class="son_nav">
+			          <a href="">代理政策</a>
+			          <a href="">价格管理</a>
+			          <a href="">代理查询</a>
+			          <a href="">系统登录</a>
+			        </div>
+				</li>
+				<li><a href="" class="cur">悉心动态</a>
+					<div class="son_nav">
+						<a href="">最新动态</a>
+						<a href="">行业资讯</a>
+						<a href="industryDetails.html" target="blank_">行业详情</a>
+						<a href="">软件开发</a>
+					</div>
+				</li>
+				<li><a href="zoujinxixin.html" target="blank_">走进悉心</a></li>
+			</ul>
+			<div class="toShop">
+				<span>前往奇猿商城</span>
+				<img src="images/to_shop.png" alt="">
+			</div>			
+		</div>
+	</nav>
+<!-- 导航栏 -->
+
+<!-- 主体内容 -->
+	<div class="figure">
+		<img src="./images/xy.jpg" alt="">
+	</div>
+	<div class="tab">
+		<div class="tab_son">
+			<h1><a href="">当前位置：</a>&nbsp;<a href="">首页 ></a><a href=""> 行业资讯</a></h1>
+			<div class="article">
+				<h2>在营销角度下，企业网站优化该怎么做？</h2>
+				<p>发布时间：2015-08-30</p>
+				<div class="content1">
+					<p class="text_one">从事企业网站优化也有一些年头了，从业的前两年，一门心思只想着把网站排名优化到前面，至于网站的构架，内容、以及用户体验等基本不考虑，后来才慢慢懂得了网络营销是怎么一回事。网站排名是重要，但是做网站优化的最终目的确是为企业网站带来营销价值。如果站在这个更高的角度来看网站优化的话，网站优化就不单单只是排名了。企业网站在营销角度下，我们优化过程中一定要注意的问题。</p>
+					<p><img src="./images/xy6.jpg" alt=""></p>
+					<p class="text_one">第一，分析你的目标群体。网络营销非常关键的一个问题就是网站定位，具体到企业站而言就是我们的目标群体分析，对企业产品需求的是哪一类群体？群体特征都有哪些？用户年龄段分布情况、身份是工薪阶层还是学生或者是老板？制作一张目标群体分布表。然后根据分布表针对性的分析出他们对于产品的兴趣点所在。那么我们在网站策划、设计以及内容制作的时候，就会有针对性的策略。</p>
+					<p class="text_one">第二，比较分析自己站点和同行站点的异同，取长补短。当下社会竞争日益激烈，在这种同质化非常严重的情形下，我们网站一定要作出自己的特点，当我们网站布局自认为已经完美的时候，请在停留一下，如果可能最好在进行下头脑风暴，让我们从事销售的同事为网站提出建议或者意见，结合大家的想法看看那些事我们做的不够好的，作为站长自己也应该做个有心人，我们应该搜索相关关键词多对比分析同行站点，看看内容和体验度方面那些还值得我们</p>
+					<p><img src="./images/xy7.jpg" alt=""></p>
+					<p class="text_one">第三，引来流量不是终点，考虑转化率的事情。网络营销的核心在于营销，网站优化使网站获得排名、引入流量并不是终点，我们最终要让浏览者转化为意向购买者或购买者。作为一名合格的企业优化人员，我们一定要深入了解用户进入网站了解信息到购买产品的这一整个过程，我们才能在这个过程中进行针对性的优化，针对客户存在的主要问题，引导客户去咨询我们的企业站在线客服，针对客户的购买流程和下单方式进行详细的说明和引导，这些都是我们在策划营销过程中所经历的核心要点。</p>
+					<p class="text_one">第四，优化短期计划要制定，中长期计划更不可少。我们知道，网站的发展绝不是仅仅依靠我们上线时候的计划而来的，每一个阶段可能我们都要根据不同的情形及时作出调整，这个时候我们必须为网站制定长期的优化和营销规划，针对各时间段需要达到什么效果都确定好目标，定期反思我们目标达成的效果，分析目标和结果之间存在哪些差距，比如每个阶段的文章收录情况，每个阶段的外链建设和关键词排名情况统计，问题是在所难免的，我们要根据遇到的问题不断调整我们的优化策略和优化细节。优化不能三天打鱼两天晒网，成功是建立在不断对于新出现的情况加以改进，直到达成我们目标的过程。</p>
+					<p class="text_two"><span><img src="./images/xy8.png" alt="">收藏</span>
+						<div class="clear"></div>
+					</p>
+				</div>
+				<div class="footer">
+					<p>上一篇：<a href="">蚌埠市旭阳医疗动漫科技分公司成立</a></p>
+					<p>下一批：<a href="">旭阳医疗动漫科技业绩上涨20%</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+<!-- 主体内容 -->
+
+
+	<!-- ***脚部** -->
+	<footer>
+		<section class="foot_top">
+			<ul class="content">
+				<li><a href="">首页</a></li>
+				<li><a href="">走近悉心</a></li>
+				<li><a href="">项目案例</a></li>
+				<li><a href="">悉心动态</a></li>
+				<li><a href="">联系悉心</a></li>
+			</ul>			
+		</section>
+		<section class="foot_bottom">
+			<div class="content">
+				<div class="left">
+					<ul>
+						<li>
+							<img src="images/icon1.png" alt="">
+							<span>地 址：广州市天河区五山路248号金山大厦南塔901</span>
+						</li>
+						<li>
+							<img src="images/icon2.png" alt="">
+							<span>电 话：020-22095623</span>
+						</li>
+						<li>
+							<img src="images/icon3.png" alt="">
+							<span>邮 箱：qyit5@qq.com</span>
+						</li>
+						<li>
+							<img src="images/icon4.png" alt="">
+							<span>传 真：020-22095623</span>
+						</li>
+					</ul>
+					<p class="copy_right">
+						<span>© 2016 Guangzhou粤ICP备16023838号-1</span>
+						<span>广州悉心网络科技有限公司所有</span>				
+					</p>
+				</div>
+				<section class="content code">
+					<img src="images/erweima_03.jpg" alt="">
+					<p>扫一扫关注悉心微信</p>
+				</section>
+			</div>
+		</section>
+	</footer>
+</div>
+<script>
+	$('.nav ul li').hover(function(){
+			$(this).find('.son_nav').stop().slideDown(300);
+		},function(){
+			$(this).find('.son_nav').stop().slideUp(200);
+		});
+</script>
+</body>
+</html>
